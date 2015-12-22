@@ -3,8 +3,8 @@
 	<file source-language="it" datatype="plaintext" original="messages" date="2012-10-17T17:55:17Z" product-name="bhsiteconf">
 		<header/>
 		<body>
-			<trans-unit id="label" xml:space="preserve">
-				<source>Basic Configuration</source>
+			<trans-unit id="generic.error" xml:space="preserve">
+				<source>Ooops! An error occurred! You should not see this!</source>
 			</trans-unit>
 			
 		</body>

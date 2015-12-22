@@ -23,10 +23,14 @@ config{
 	// Clean html
 	disableImgBorderAttr=1
 	removeDefaultJS = external
-	// Typo3 4.7 adds a lot of comments; get rid of them!
+	// Typo3 adds a lot of comments; get rid of them!
 	disablePrefixComment=1
-  	//render a meaningful prefix before temporary image files.
+  //render a meaningful prefix before temporary image files.
 	meaningfulTempFilePrefix = 100
+
+  additionalHeaders = Content-Type:text/html;charset=utf-8
+  enableContentLengthHeader = 1
+	sendCacheHeaders = 1
 
 	//Admin Panel
 	admPanel = 0
