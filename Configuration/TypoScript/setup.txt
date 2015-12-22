@@ -1,0 +1,4 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:bhsiteconf/Configuration/TypoScript/Setup/" extensions="t3s">
+
+#create the page
+page=PAGE

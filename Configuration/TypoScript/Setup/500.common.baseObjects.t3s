@@ -1,0 +1,78 @@
+# -------------------------------------------------------------
+# All basic elements which are in commons between
+#	all the pages.
+# -------------------------------------------------------------
+
+
+
+
+
+
+lib.stdContent = FLUIDTEMPLATE
+lib.stdContent {
+//templateName = Default
+
+templateNamex= TEXT
+  templateNamex.stdWrap {
+    cObject = TEXT
+    cObject {
+      data = levelfield:-2,backend_layout_next_level,slide
+      override.field = backend_layout
+      split {
+              token = frontend__
+              1.current = 1
+              1.wrap = |
+      }
+    }
+    ifEmpty = Error
+    //wrap=page|
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  layoutRootPaths {
+    0 = {$plugin.tx_bhsiteconf.view.layoutRootPath}  
+  }
+  partialRootPaths {
+    0 = {$plugin.tx_bhsiteconf.view.partialRootPath}  
+  }
+  templateRootPaths {
+    0 = {$plugin.tx_bhsiteconf.view.templateRootPath}  
+  }
+  
+	extbase.controllerExtensionName = bhsiteconf  
+
+  ##------------------------------------------
+  #	Declaring Settings
+  ##------------------------------------------
+  
+  settings{
+  
+  }
+
+  ##------------------------------------------
+  #	Declaring Variables
+  ##------------------------------------------   
+  
+  variables {
+    foo = bar
+  }
+}
+
+
+page.100=TEXT
+page.100 < lib.stdContent.templateNamex
