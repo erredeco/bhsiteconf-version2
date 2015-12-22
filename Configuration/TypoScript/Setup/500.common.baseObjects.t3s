@@ -3,14 +3,13 @@
 #	all the pages.
 # -------------------------------------------------------------
 
-
-
-
-
+## ---------------------------------------------------------
+# template cObject for the page
+## ---------------------------------------------------------
 
 lib.stdContent = FLUIDTEMPLATE
 lib.stdContent {
-templateName= TEXT
+  templateName= TEXT
   templateName.stdWrap {
     cObject = CASE
     cObject {
@@ -27,31 +26,15 @@ templateName= TEXT
     }
     ifEmpty = Error
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
   layoutRootPaths {
-    0 = {$plugin.tx_bhsiteconf.view.layoutRootPath}  
+    0 = {$plugin.tx_bhsiteconf.view.layoutRootPath}/Page/  
   }
   partialRootPaths {
-    0 = {$plugin.tx_bhsiteconf.view.partialRootPath}  
+    0 = {$plugin.tx_bhsiteconf.view.partialRootPath}/Page/  
   }
   templateRootPaths {
-    0 = {$plugin.tx_bhsiteconf.view.templateRootPath}  
+    0 = {$plugin.tx_bhsiteconf.view.templateRootPath}/Page/  
   }
   
 	extbase.controllerExtensionName = bhsiteconf  
@@ -72,3 +55,13 @@ templateName= TEXT
     foo = bar
   }
 }
+
+
+## ---------------------------------------------------------
+# object that writes page level
+## ---------------------------------------------------------
+lib.pageLevel=TEXT
+lib.pageLevel{
+      value= level-{level:-1}      
+      insertData = 1    
+    }
