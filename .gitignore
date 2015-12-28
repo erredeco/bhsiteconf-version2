@@ -1,0 +1,15 @@
+.sass-cache
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+*.log
+prova.*
+
+dist
+
+bower_components
+node_modules
+Source/scss
+Bck
+Resources/Public/Assets/Css
+Resources/Public/Assets/Js/Vendor
