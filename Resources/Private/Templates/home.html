@@ -1,9 +1,0 @@
-{namespace v=FluidTYPO3\Vhs\ViewHelpers}
-
-<f:layout name="Home" />
-<h1>{v:page.info(field:'title')}</h1> 
-<f:if condition="{v:page.info(field:'subtitle')}">
-<h2>{v:page.info(field:'subtitle')}</h2>
-</f:if> 
-
-<v:content.render column="0" />
