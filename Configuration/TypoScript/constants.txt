@@ -1,3 +1,5 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:bhsiteconf/Configuration/TypoScript/Constants/" extensions="ts">
+
 # customsubcategory=0_general=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.cat.general
 # customsubcategory=1_resources=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.cat.resources
 # customsubcategory=2_language=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.cat.language
@@ -12,9 +14,8 @@ plugin.tx_bhsiteconf.settings {
 	# cat=plugin.tx_bhsiteconf/0_general/0030; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.page.header.includePagesInMenu
 	page.header.includePagesInMenu =
   
-	# cat=plugin.tx_bhsiteconf/0_general/0040; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.absRefPrefix
-  
-  absRefPrefix = / 
+	# cat=plugin.tx_bhsiteconf/0_general/0040; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.absRefPrefix  
+  	absRefPrefix = / 
 }
 
 plugin.tx_bhsiteconf.extensionSetup{

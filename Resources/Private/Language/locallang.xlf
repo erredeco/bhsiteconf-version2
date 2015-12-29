@@ -6,6 +6,10 @@
 			<trans-unit id="page.generic.error" xml:space="preserve">
 				<source>Ooops! An error occurred! You should not see this!</source>
 			</trans-unit>
+			<trans-unit id="page.label.footer.bhcopyright" xml:space="preserve">
+				<source>B Human S.r.L. Tutti i diritti riservati.</source>
+			</trans-unit>
+
 			
 		</body>
 	</file>

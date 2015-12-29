@@ -25,11 +25,9 @@ config{
 	removeDefaultJS = external
 	// Typo3 adds a lot of comments; get rid of them!
 	disablePrefixComment=1
-  //render a meaningful prefix before temporary image files.
-	meaningfulTempFilePrefix = 100
 
-  additionalHeaders = Content-Type:text/html;charset=utf-8
-  enableContentLengthHeader = 1
+  	additionalHeaders = Content-Type:text/html;charset=utf-8
+  	enableContentLengthHeader = 1
 	sendCacheHeaders = 1
 
 	//Admin Panel

@@ -46,6 +46,10 @@ lib.stdContent {
   ##------------------------------------------
   
   settings{
+    page.header.includePagesInMenu = {$plugin.tx_bhsiteconf.settings.page.header.includePagesInMenu}
+
+    page.footer.includePagesInMenu = {$plugin.tx_bhsiteconf.settings.page.footer.includePagesInMenu}
+      
   
   }
 
@@ -54,7 +58,51 @@ lib.stdContent {
   ##------------------------------------------   
   
   variables {
-    foo = bar
+
+    ##------------------------------------------ 
+    # Tests for the presence of content or subpages
+    ##------------------------------------------
+    
+    #Test if there are subpages
+    testThereAreSubpages = TEXT
+    testThereAreSubpages.value = 1
+    testThereAreSubpages.if.isTrue.numRows{
+      table = pages
+      select.pidInList.data =  field:uid
+      select.where = nav_hide = 0       
+    }
+
+    #test there is content on column 0 (colpos=0)
+    testThereIsContent0 = TEXT
+    testThereIsContent0.value=1
+    testThereIsContent0.if.isTrue.numRows{
+     table=tt_content
+     select{
+        pidInList=this
+        where=colPos=0
+      } 
+    } 
+   
+
+    #test there is content on column 1 (colpos=1)
+    testThereIsContent1 < .testThereIsContent0
+    testThereIsContent1.if.isTrue.numRows.select.where=colPos=1
+    
+    #test there is content on column 2 (colpos=2)
+    testThereIsContent2 < .testThereIsContent0
+    testThereIsContent2.if.isTrue.numRows.select.where=colPos=2
+  
+    #test there is content on column 3 (colpos=3)
+    testThereIsContent3 < .testThereIsContent0
+    testThereIsContent3.if.isTrue.numRows.select.where=colPos=3 
+    
+    #add more if u need....
+
+
+
+
+
+
   }
 }
 
@@ -78,6 +126,7 @@ tt_content.gridelements_pi1{
   
   # uncomment this to wrap the grid as the other elements
   #stdWrap.dataWrap=<div id="c{field:uid}">|</div>
+  
   #uncomment this to have the header back again!
   #10 =< lib.stdheader
 
@@ -85,14 +134,14 @@ tt_content.gridelements_pi1{
     # 1,2, etc are the IDs of the  Gridelements records
     1 < lib.gridelements.defaultGridSetup
     1 {
-        cObject {
-            templateName= Default
-      }  
+      cObject.templateName = GridElementDefault
     }
+
+    2 {
+      cObject.templateName = GridElementFourColumns
+    } 
   }
 }
-
-
 
 
 ## ---------------------------------------------------------

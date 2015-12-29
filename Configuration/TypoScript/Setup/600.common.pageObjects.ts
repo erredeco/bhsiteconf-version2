@@ -3,6 +3,6 @@
 ## ---------------------------------------------------------
 
 # remove the <body> initial tag!
-#config.disableBodyTag = 1
-
+config.disableBodyTag = 1
+# standard object inside page
 page.10 =< lib.stdContent
