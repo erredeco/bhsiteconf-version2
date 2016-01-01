@@ -46,9 +46,9 @@ lib.stdContent {
   ##------------------------------------------
   
   settings{
-    page.header.includePagesInMenu = {$plugin.tx_bhsiteconf.settings.page.header.includePagesInMenu}
+    pagesInHeaderMenu = {$plugin.tx_bhsiteconf.settings.pagesInHeaderMenu}
 
-    page.footer.includePagesInMenu = {$plugin.tx_bhsiteconf.settings.page.footer.includePagesInMenu}
+    pagesInFooterMenu = {$plugin.tx_bhsiteconf.settings.pagesInFooterMenu}
       
   
   }
@@ -71,38 +71,6 @@ lib.stdContent {
       select.pidInList.data =  field:uid
       select.where = nav_hide = 0       
     }
-
-    #test there is content on column 0 (colpos=0)
-    testThereIsContent0 = TEXT
-    testThereIsContent0.value=1
-    testThereIsContent0.if.isTrue.numRows{
-     table=tt_content
-     select{
-        pidInList=this
-        where=colPos=0
-      } 
-    } 
-   
-
-    #test there is content on column 1 (colpos=1)
-    testThereIsContent1 < .testThereIsContent0
-    testThereIsContent1.if.isTrue.numRows.select.where=colPos=1
-    
-    #test there is content on column 2 (colpos=2)
-    testThereIsContent2 < .testThereIsContent0
-    testThereIsContent2.if.isTrue.numRows.select.where=colPos=2
-  
-    #test there is content on column 3 (colpos=3)
-    testThereIsContent3 < .testThereIsContent0
-    testThereIsContent3.if.isTrue.numRows.select.where=colPos=3 
-    
-    #add more if u need....
-
-
-
-
-
-
   }
 }
 

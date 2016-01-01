@@ -8,11 +8,11 @@
 plugin.tx_bhsiteconf.settings {
 	# cat=plugin.tx_bhsiteconf/0_general/0010; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.headerText
 	headerText = Realized by: B Human S.r.L.  
-	# cat=plugin.tx_bhsiteconf/0_general/0020; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.page.footer.includePagesInMenu
-	page.footer.includePagesInMenu =
+	# cat=plugin.tx_bhsiteconf/0_general/0020; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.pagesInFooterMenu
+	pagesInFooterMenu =
 
-	# cat=plugin.tx_bhsiteconf/0_general/0030; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.page.header.includePagesInMenu
-	page.header.includePagesInMenu =
+	# cat=plugin.tx_bhsiteconf/0_general/0030; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.pagesInHeaderMenu
+	pagesInHeaderMenu =
   
 	# cat=plugin.tx_bhsiteconf/0_general/0040; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.settings.absRefPrefix  
   	absRefPrefix = / 

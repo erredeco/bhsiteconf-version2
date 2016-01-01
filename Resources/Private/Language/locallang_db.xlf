@@ -29,11 +29,11 @@
 			</trans-unit>
       
       
-			<trans-unit id="constant.settings.page.footer.includePagesInMenu" xml:space="preserve">
+			<trans-unit id="constant.settings.pagesInFooterMenu" xml:space="preserve">
 				<source>IDs of pages in footer menu</source>
 			</trans-unit>
 
-			<trans-unit id="constant.settings.page.header.includePagesInMenu" xml:space="preserve">
+			<trans-unit id="constant.settings.pagesInHeaderMenu" xml:space="preserve">
 				<source>IDs of pages in header menu</source>
 			</trans-unit>
 
