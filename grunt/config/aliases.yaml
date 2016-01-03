@@ -1,0 +1,33 @@
+# Grunt aliases
+---
+
+#Initialise repositories
+initialize:
+  - 'devUpdate:main'
+  - 'bower:install'
+  - 'copy:local'
+
+cleaner:
+  - 'clean'
+#Backup things
+backup:
+  - 'copy:backup'
+# Build everything
+build:
+  - 'build:assets'
+
+# Build assets
+'build:assets':
+  - 'modernizr'
+  - 'uglify'
+  - 'compass'
+  - 'postcss'  
+
+# Deploy
+deploy:
+  - 'build'
+
+# Default
+default:
+  - 'build'
+  - 'watch'

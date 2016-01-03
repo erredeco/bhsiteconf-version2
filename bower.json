@@ -1,0 +1,23 @@
+{
+  "name": "bhsiteconf",
+  "version": "0.0.1",
+  "homepage": "https://github.com/erredeco/bhsiteconf",
+  "description": "second try to assemble with bower and grunt",
+  "keywords": [
+    "bhsiteconf"
+  ],
+  "authors": [
+    "Riccardo De Contardi"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
