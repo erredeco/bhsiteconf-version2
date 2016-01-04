@@ -8,9 +8,9 @@ module.exports = {
 	local: {
 		files: [{
 			expand:true, 
-			cwd: config.foundationdir+'scss/settings/', 
-			src: ['_settings.scss'], 
-			dest:config.sourcedir+'scss/'
+			cwd: config.foundationdir, 
+			src: ['scss/settings/_settings.scss'], 
+			dest:config.sourcedir
 			},{
 			expand:true, 
 			cwd: config.mydir, 
