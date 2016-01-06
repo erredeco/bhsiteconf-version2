@@ -8,13 +8,15 @@ module.exports = {
 		"parseFiles": false,
 		"customTests": [],
 		"devFile": false,
+		//qualsiasi test tu voglia includere, devi andare in https://modernizr.com/download e NON FIDARTI 
+		// del codice generato! è meglio che tu vada sull'esempio in codepen a copiarti come si chiama il test
+		// alla riga: * http://modernizr.com/download/?-WHATEVER !*/
 		"tests": [
-		    "css/boxsizing"
 			],
 		"options": [
-			"html5shiv",
-			"setClasses"
+		    "html5shiv",
+		    "setClasses"
 			],
-		"uglify": false
+		"uglify": true
 	}
 };
