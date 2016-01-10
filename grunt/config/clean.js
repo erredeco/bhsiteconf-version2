@@ -5,6 +5,5 @@ var config = require('../config');
 module.exports = {
 	source: [config.sourcedir],
 	cache: ['.sass-cache'],
-	bower: [config.bowerdir],
-	bck: [config.bckdir] 
+	bower: [config.bowerdir]
 };
