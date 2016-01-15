@@ -84,10 +84,30 @@
 			<trans-unit id="ttcontent.headerlayout.4" xml:space="preserve">
 				<source>Heading type (Heading H4)</source>
 			</trans-unit>
+      
+			<trans-unit id="ttcontent.tabs.additionalce" xml:space="preserve">
+				<source>Addititonal content elements</source>
+			</trans-unit>      
+      
 
+			<trans-unit id="ttcontent.headlinesubheadline.title" xml:space="preserve">
+				<source>Sample Content element (title and subtitle)</source>
+			</trans-unit>
 
+			<trans-unit id="ttcontent.headlinesubheadline.description" xml:space="preserve">
+				<source>Sample Description</source>
+			</trans-unit>
+      
+			<trans-unit id="ttcontent.plaintext.title" xml:space="preserve">
+				<source>Plain text Content element (custom, no images, only text)</source>
+			</trans-unit>
 
-
+			<trans-unit id="ttcontent.plaintext.description" xml:space="preserve">
+				<source>Plain text Content element (custom, no images, only text)</source>
+			</trans-unit>      
+      
+      
+      
 		</body>
 	</file>
 </xliff>

@@ -15,4 +15,7 @@ TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Conf
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig('
   <INCLUDE_TYPOSCRIPT: source="DIR:EXT:' . $_EXTKEY . '/Configuration/TypoScript/TSconfig/Users" extensions="ts">'
   );
+  
+
+  
 ?>
