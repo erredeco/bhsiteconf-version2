@@ -90,25 +90,12 @@ lib.gridelements.defaultGridSetup {
   }
 }
 
-tt_content.gridelements_pi1{
-  
+tt_content.gridelements_pi1{ 
   # uncomment this to wrap the grid as the other elements
   #stdWrap.dataWrap=<div id="c{field:uid}">|</div>
-  
+   
   #uncomment this to have the header back again!
   #10 =< lib.stdheader
-
-  20.10.setup {
-    # 1,2, etc are the IDs of the  Gridelements records
-    1 < lib.gridelements.defaultGridSetup
-    1 {
-      cObject.templateName = GridElementDefault
-    }
-
-    2 {
-      cObject.templateName = GridElementFourColumns
-    } 
-  }
 }
 
 
