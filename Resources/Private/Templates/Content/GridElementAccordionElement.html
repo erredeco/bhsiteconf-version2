@@ -1,7 +1,8 @@
 {namespace v=FluidTYPO3\Vhs\ViewHelpers}
-<li class="accordion-item <f:if condition="{data.flexform_active}">is-active</f:if>" data-accordion-item>
+<li class="accordion-item {f:if(condition: data.flexform_active, then: 'is-active')}" data-accordion-item>
 	<a class="accordion-title">{data.header}</a>
 	<div class="accordion-content" data-tab-content>
-		<f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
+		{data.tx_gridelements_view_column_0-> f:format.raw()}
+		
 	</div>
 </li>

@@ -3,7 +3,6 @@ tx_gridelements.setup.ffaccordion_container {
 	title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_container.title
 	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_container.description
 	flexformDS = FILE:EXT:bhsiteconf/Configuration/FlexForms/gridelements_ffaccordion_container.xml
-
 	config {
 		colCount = 1
 		rowCount = 1
@@ -36,7 +35,7 @@ tx_gridelements.setup.ffaccordion_element {
 			1 {
 				columns {
 					1 {
-						name = Collapsible Element
+						name = Accordion Element
 						colPos = 0
 					}
 				}
