@@ -134,19 +134,30 @@
 
 			<trans-unit id="gridelements.accordion_container.title" xml:space="preserve">
 				<source>Accordion container</source>
-			</trans-unit> 
-      
+			</trans-unit>       
 			<trans-unit id="gridelements.accordion_container.description" xml:space="preserve">
 				<source>This element contains all the accordion elements</source>
 			</trans-unit>
-
 			<trans-unit id="gridelements.accordion_element.title" xml:space="preserve">
 				<source>Accordion Element</source>
 			</trans-unit> 
-      
 			<trans-unit id="gridelements.accordion_element.description" xml:space="preserve">
 				<source>Single element for the accordion. WARNING! Never use alone! ONLY INSIDE accordion container!!</source>
 			</trans-unit>
+
+
+			<trans-unit id="gridelements.tab_container.title" xml:space="preserve">
+				<source>Tabs container</source>
+			</trans-unit>       
+			<trans-unit id="gridelements.tab_container.description" xml:space="preserve">
+				<source>This element contains all the Tabs elements</source>
+			</trans-unit>
+			<trans-unit id="gridelements.tab_element.title" xml:space="preserve">
+				<source>Tab Element</source>
+			</trans-unit> 
+			<trans-unit id="gridelements.tab_element.description" xml:space="preserve">
+				<source>Single element for the Tabs. WARNING! Never use alone! ONLY INSIDE Tabs container!!</source>
+			</trans-unit>			
 
 
 		</body>
