@@ -1,0 +1,8 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<ul class="accordion" 
+<f:if condition="{data.flexform_allowmultiexpand}">data-multi-expand="true"</f:if>
+<f:if condition="{data.flexform_allowallclosed}">data-allow-all-closed="true"</f:if>
+data-accordion>
+	<f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
+</ul>

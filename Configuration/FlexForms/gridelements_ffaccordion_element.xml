@@ -7,7 +7,7 @@
 		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>Einstellungen</sheetTitle>
+					<sheetTitle>Settings</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<active type="array">

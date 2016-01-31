@@ -1,8 +1,8 @@
 # Accordion Container
 tx_gridelements.setup.ffaccordion_container {
-  title = Collapsible Container
-	description = Ein Element das mehrere Collapsible enthält
-  flexformDS = FILE:EXT:bhsiteconf/Configuration/FlexForms/gridelements_ffaccordion_container.xml
+	title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_container.title
+	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_container.description
+	flexformDS = FILE:EXT:bhsiteconf/Configuration/FlexForms/gridelements_ffaccordion_container.xml
 
 	config {
 		colCount = 1
@@ -24,8 +24,8 @@ tx_gridelements.setup.ffaccordion_container {
 
 # Accordion Element
 tx_gridelements.setup.ffaccordion_element {
-  title = Accordion Element
-	description = Ein Element für einen Collapsible-Container
+	title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_element.title
+	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_element.description
 	flexformDS = FILE:EXT:bhsiteconf/Configuration/FlexForms/gridelements_ffaccordion_element.xml
 
 	config {

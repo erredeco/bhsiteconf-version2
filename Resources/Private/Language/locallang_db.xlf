@@ -131,6 +131,24 @@
 				<source>Sub-grid with 4 elements</source>
 			</trans-unit>            
       
+
+			<trans-unit id="gridelements.accordion_container.title" xml:space="preserve">
+				<source>Accordion container</source>
+			</trans-unit> 
+      
+			<trans-unit id="gridelements.accordion_container.description" xml:space="preserve">
+				<source>This element contains all the accordion elements</source>
+			</trans-unit>
+
+			<trans-unit id="gridelements.accordion_element.title" xml:space="preserve">
+				<source>Accordion Element</source>
+			</trans-unit> 
+      
+			<trans-unit id="gridelements.accordion_element.description" xml:space="preserve">
+				<source>Single element for the accordion. WARNING! Never use alone! ONLY INSIDE accordion container!!</source>
+			</trans-unit>
+
+
 		</body>
 	</file>
 </xliff>
