@@ -2,30 +2,29 @@ tx_gridelements.setup.fourcolumnscontainer {
   title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.fourcolumns.title
 	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.fourcolumns.description
   config{
-  	colCount = 2
-  	rowCount = 2
+  	colCount = 4
+  	rowCount = 1
   	rows {
   		1 {
   			columns {
   				1 {
-  					name = Main column
-  					colPos = 100
+  					name = col-1
+  					colPos = 200
   				}
   				2 {
-  					name = Side column
-  					colPos = 101
+  					name = col-2
+  					colPos = 201
+  				}
+  				3 {
+  					name = col-3
+  					colPos = 202
+  				}
+  				4 {
+  					name = col-4
+  					colPos = 203
   				}
   			}
   		}
-  		2 {
-  			columns {
-  				1 {
-  					name = bottom column
-  					colspan = 2
-  					colPos = 102
-  				}
-  			}
-  		}
-  	}    
+  	}
   }  
 }

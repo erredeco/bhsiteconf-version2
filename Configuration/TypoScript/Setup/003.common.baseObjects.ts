@@ -95,7 +95,7 @@ tt_content.gridelements_pi1{
   #stdWrap.dataWrap=<div id="c{field:uid}">|</div>
    
   #uncomment this to have the header back again!
-  #10 =< lib.stdheader
+  #10 =< lib.stdheader 
 }
 
 
