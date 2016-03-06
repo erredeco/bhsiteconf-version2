@@ -15,6 +15,12 @@ module.exports = {
 	foundationdir: './node_modules/foundation-sites/',
 	mydir: './LocalSource',
 	sourcedir: './Resources/Private/Source/',
+  tempjsdir:'./Resources/Private/Source/js/temp/',
+
+  //log messages
+  //msg = 'HelloWorld!',
+
+
 	
 	//Comopents: my js (App js)
 	appjs:[

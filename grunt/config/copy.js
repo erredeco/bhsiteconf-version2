@@ -23,6 +23,20 @@ module.exports = {
 			dest:config.sourcedir
 			}]
 	},
+
+	update: {
+		files: [{
+			// copy the configuration file from foundation dir to sourcedir
+			expand:true, 
+			cwd: config.foundationdir, 
+			src: ['scss/settings/_settings.scss'], 
+			dest:config.sourcedir			
+		}]
+
+	},
+
+
+
 	//use this to backup scss and  javascript  files into another folder
 	//please take note that you must do a diff after the update
 	backup: { 

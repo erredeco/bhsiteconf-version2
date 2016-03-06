@@ -7,6 +7,12 @@ initialize:
   - 'bower:install'
   - 'copy:local'
 
+#updates all grunt dependencies (including foundation)
+update:
+  - 'devUpdate:main'
+  - 'bower:install'
+  - 'copy:update'
+
 cleaner:
   - 'clean'
 #Backup things
@@ -19,6 +25,8 @@ build:
 # Build assets
 'build:assets':
   - 'modernizr'
+  - 'concat:foundation'
+  - 'babel:foundation'
   - 'uglify'
   - 'compass'
   - 'postcss'  

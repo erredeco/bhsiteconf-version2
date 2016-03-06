@@ -12,7 +12,7 @@ module.exports = {
 	},
 	js: {
 		files: [config.sourcedir+'js/**/*.js', './grunt/config.js'],
-		tasks: ['uglify','newer:uglify']       
+		tasks: ['concat','newer:concat','babel','uglify','newer:uglify']       
 	},    
 
 	compass: {
