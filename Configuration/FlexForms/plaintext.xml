@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <T3DataStructure>
-  	<meta type="array">
+	<meta type="array">
 		<langDisable>1</langDisable>
 	</meta>
 	<sheets>
@@ -10,16 +10,18 @@
 					<sheetTitle>Settings</sheetTitle>
 				</TCEforms>
 				<el type="array">
-					<active type="array">
+					<awesomeproperty type="array">
 						<TCEforms type="array">
-							<label>Active</label>
+							<label>Some awesome property to check</label>
 							<config type="array">
 								<type>check</type>
 							</config>
 						</TCEforms>
-					</active>
+					</awesomeproperty>
 				</el>
 			</ROOT>
 		</general>
 	</sheets>
-</T3DataStructure>
+
+
+</T3DataStructure>	

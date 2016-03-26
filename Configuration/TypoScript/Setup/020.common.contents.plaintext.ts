@@ -12,11 +12,13 @@ tt_content.plaintext {
   templateRootPaths {
       0 = {$plugin.tx_bhsiteconf.view.templateRootPath}Content/  
   }    
-	variables {		
+	variables {
 	}
-  
+
+  dataProcessing {
+    10 = BH\bhsiteconf\DataProcessing\FlexFormProcessor
+  }
   settings{
     defaultHeaderType = {$styles.content.defaultHeaderType}
-  }
-  
+  }  
 }

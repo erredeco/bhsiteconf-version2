@@ -49,8 +49,6 @@ lib.stdContent {
     pagesInHeaderMenu = {$plugin.tx_bhsiteconf.settings.pagesInHeaderMenu}
 
     pagesInFooterMenu = {$plugin.tx_bhsiteconf.settings.pagesInFooterMenu}
-      
-  
   }
 
   ##------------------------------------------
@@ -58,7 +56,6 @@ lib.stdContent {
   ##------------------------------------------   
   
   variables {
-
     ##------------------------------------------ 
     # Tests for the presence of content or subpages
     ##------------------------------------------
@@ -73,7 +70,6 @@ lib.stdContent {
     }
   }
 }
-
 
 ## ---------------------------------------------------------
 # template cObject for content grids
