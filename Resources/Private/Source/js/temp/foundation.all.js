@@ -8137,5 +8137,3 @@ Tooltip.defaults = {
 Foundation.plugin(Tooltip, 'Tooltip');
 
 }(jQuery);
-
-//# sourceMappingURL=foundation.all.js.map
