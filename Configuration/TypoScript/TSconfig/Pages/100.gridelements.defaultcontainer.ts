@@ -9,11 +9,11 @@ tx_gridelements.setup.defaultcontainer {
   			columns {
   				1 {
   					name = Main column
-  					colPos = 100
+  					colPos = 0
   				}
   				2 {
   					name = Side column
-  					colPos = 101
+  					colPos = 1
   				}
   			}
   		}
@@ -22,7 +22,7 @@ tx_gridelements.setup.defaultcontainer {
   				1 {
   					name = bottom column
   					colspan = 2
-  					colPos = 102
+  					colPos = 2
   				}
   			}
   		}

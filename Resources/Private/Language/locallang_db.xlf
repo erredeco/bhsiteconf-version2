@@ -122,6 +122,22 @@
 			<trans-unit id="gridelements.default.description" xml:space="preserve">
 				<source>Simple grid content element test (description)</source>
 			</trans-unit> 
+
+			<trans-unit id="gridelements.twocolumns.title" xml:space="preserve">
+				<source>2-columns container</source>
+			</trans-unit> 
+      
+			<trans-unit id="gridelements.twocolumns.description" xml:space="preserve">
+				<source>Sub-grid with 2 elements</source>
+			</trans-unit> 
+
+			<trans-unit id="gridelements.threecolumns.title" xml:space="preserve">
+				<source>3-columns container</source>
+			</trans-unit> 
+      
+			<trans-unit id="gridelements.threecolumns.description" xml:space="preserve">
+				<source>Sub-grid with 3 elements</source>
+			</trans-unit> 
       
 			<trans-unit id="gridelements.fourcolumns.title" xml:space="preserve">
 				<source>4-columns container</source>
@@ -131,7 +147,6 @@
 				<source>Sub-grid with 4 elements</source>
 			</trans-unit>            
       
-
 			<trans-unit id="gridelements.accordion_container.title" xml:space="preserve">
 				<source>Accordion container</source>
 			</trans-unit>       
