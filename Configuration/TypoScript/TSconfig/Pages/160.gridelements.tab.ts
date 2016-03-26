@@ -11,7 +11,7 @@ tx_gridelements.setup.fftab_container {
 				columns {
 					1 {
 						name = Tabs Container
-						colPos = 0
+						colPos = 100
 						allowed = gridelements_pi1
 					}
 				}
@@ -35,7 +35,7 @@ tx_gridelements.setup.fftab_element {
 				columns {
 					1 {
 						name = Tab Element
-						colPos = 0
+						colPos = 100
 					}
 				}
 			}

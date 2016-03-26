@@ -9,11 +9,11 @@ tx_gridelements.setup.twocolumnscontainer {
   			columns {
   				1 {
   					name = col-1
-  					colPos = 200
+  					colPos = 100
   				}
   				2 {
   					name = col-2
-  					colPos = 201
+  					colPos = 101
   				}
   			}
   		}

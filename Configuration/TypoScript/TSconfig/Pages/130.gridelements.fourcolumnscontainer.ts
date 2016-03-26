@@ -9,19 +9,19 @@ tx_gridelements.setup.fourcolumnscontainer {
   			columns {
   				1 {
   					name = col-1
-  					colPos = 400
+  					colPos = 100
   				}
   				2 {
   					name = col-2
-  					colPos = 401
+  					colPos = 101
   				}
   				3 {
   					name = col-3
-  					colPos = 402
+  					colPos = 102
   				}
   				4 {
   					name = col-4
-  					colPos = 403
+  					colPos = 103
   				}
   			}
   		}

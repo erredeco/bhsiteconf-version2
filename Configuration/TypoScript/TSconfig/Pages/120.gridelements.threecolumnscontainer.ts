@@ -9,15 +9,15 @@ tx_gridelements.setup.threecolumnscontainer {
   			columns {
   				1 {
   					name = col-1
-  					colPos = 300
+  					colPos = 100
   				}
   				2 {
   					name = col-2
-  					colPos = 301
+  					colPos = 101
   				}
   				3 {
   					name = col-3
-  					colPos = 302
+  					colPos = 102
   				}
   			}
   		}

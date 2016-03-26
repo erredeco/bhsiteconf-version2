@@ -12,7 +12,7 @@ tx_gridelements.setup.ffaccordion_container {
 				columns {
 					1 {
 						name = Accordion Container
-						colPos = 0
+						colPos = 100
 						allowed = gridelements_pi1
 					}
 				}
@@ -36,7 +36,7 @@ tx_gridelements.setup.ffaccordion_element {
 				columns {
 					1 {
 						name = Accordion Element
-						colPos = 0
+						colPos = 100
 					}
 				}
 			}
