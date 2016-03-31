@@ -1,6 +1,7 @@
 tx_gridelements.setup.twocolumnscontainer {
   title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.twocolumns.title
 	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.twocolumns.description
+  icon = EXT:bhsiteconf/Resources/Public/Icons/GridElements/2-columns.gif
   config{
   	colCount = 2
   	rowCount = 1

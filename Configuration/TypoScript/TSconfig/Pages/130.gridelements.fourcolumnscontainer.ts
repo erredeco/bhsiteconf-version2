@@ -1,6 +1,7 @@
 tx_gridelements.setup.fourcolumnscontainer {
   title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.fourcolumns.title
 	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.fourcolumns.description
+  icon = EXT:bhsiteconf/Resources/Public/Icons/GridElements/4-columns.gif
   config{
   	colCount = 4
   	rowCount = 1
