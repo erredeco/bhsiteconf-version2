@@ -4,7 +4,7 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="83.097" height="84.172"
+<svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.097" height="84.172"
 	 viewBox="0 0 83.097 84.172" overflow="visible" enable-background="new 0 0 83.097 84.172" xml:space="preserve">
 <path fill="#010101" d="M62.872,58.006c-1.247,0.368-2.242,0.506-3.547,0.506c-10.691,0-26.389-37.359-26.389-49.793
 	c0-4.577,1.083-6.104,2.613-7.415C22.465,2.831,6.765,7.633,1.745,13.737C0.66,15.266,0,17.663,0,20.717
