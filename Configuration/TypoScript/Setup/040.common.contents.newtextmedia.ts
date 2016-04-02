@@ -1,19 +1,13 @@
 tt_content.newtextmedia < tt_content.textmedia
 tt_content.newtextmedia {
 	templateName= Newtextmedia
-  layoutRootPaths {
-    0 = EXT:fluid_styled_content/Resources/Private/Layouts/
-    1 = {$plugin.tx_bhsiteconf.view.layoutRootPath}Content/  
-  }
-  partialRootPaths {
-    	0 = EXT:fluid_styled_content/Resources/Private/Partials/
-      1 = {$plugin.tx_bhsiteconf.view.partialRootPath}Content/  
-  }
-  templateRootPaths {
-      0 = {$plugin.tx_bhsiteconf.view.templateRootPath}Content/  
-  }    
+
+  //the alternative TemplateRootPaths, LayoutRootPaths, PartialRootPaths are already defined as constant in constant.txt.
+  //if you need further folders to place them, remember that their position in the array is .10     
 	variables {
-	}
+	
+  }
   settings{
+  
   }  
 }

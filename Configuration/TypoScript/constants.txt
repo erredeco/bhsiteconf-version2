@@ -43,6 +43,13 @@ plugin.tx_bhsiteconf.resource {
 	jsPath = EXT:bhsiteconf/Resources/Public/js/
 }
 
+//I define here the constants for the alternative templates, layouts, partials path for the lib.fluidtemplate object. remember that they occupy the .10 position on the array!
+
+styles.templates.templateRootPath = EXT:bhsiteconf/Resources/Private/Templates/Content/ 
+styles.templates.partialRootPath = EXT:bhsiteconf/Resources/Private/Partials/Content/
+styles.templates.layoutRootPath = EXT:bhsiteconf/Resources/Private/Layouts/Content/
+
+//Language definitions
 plugin.tx_bhsiteconf.language {
 	# cat=plugin.tx_bhsiteconf/2_language/0010; type=int; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.language.languageUid
 	languageUid=0
