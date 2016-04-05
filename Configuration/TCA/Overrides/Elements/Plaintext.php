@@ -31,7 +31,7 @@ call_user_func(function () {
     );
 
   //icon in the dropdown    
-  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['plaintext'] = $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['text'];    
+  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['plaintext'] = $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['content-text'];    
     
   // Define what fields to display
   $GLOBALS['TCA']['tt_content']['types']['plaintext'] = [
