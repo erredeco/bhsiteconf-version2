@@ -22,6 +22,9 @@ call_user_func(function () {
     'after'
   );  
   
+  //icon in list, page    
+  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['newtextmedia'] = 'content-textpic';  
+  
   // Define what fields to display: copy the whole textmedia!  
   $GLOBALS['TCA']['tt_content']['types']['newtextmedia'] = $GLOBALS['TCA']['tt_content']['types']['textmedia'];  
 

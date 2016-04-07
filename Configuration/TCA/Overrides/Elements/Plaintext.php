@@ -22,6 +22,9 @@ call_user_func(function () {
     'textmedia',
     'after'
   );
+  
+  //icon in list, page    
+  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['plaintext'] = 'content-text';  
 
   // Add a flexform to the plaintext CType
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(

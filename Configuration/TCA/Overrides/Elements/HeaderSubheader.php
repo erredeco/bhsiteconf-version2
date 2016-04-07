@@ -22,9 +22,9 @@ call_user_func(function () {
     'after'
   );
  
-  //icon in the dropdown    
-  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['header_subheader'] = $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['content-header'];    
-    
+  //icon in list, page    
+  $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['header_subheader'] = 'content-header';
+      
   // Define what fields to display
   $GLOBALS['TCA']['tt_content']['types']['header_subheader'] = [
     'showitem' => '
