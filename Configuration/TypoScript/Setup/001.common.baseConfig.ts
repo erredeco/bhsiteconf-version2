@@ -10,7 +10,7 @@ config{
 	doctype=html5	
  	htmlTag_setParams = class="no-js" lang="{$plugin.tx_bhsiteconf.language.languageName}" 
  	htmlTag_stdWrap.wrap (
-<!--[if IE 9]><html class="lt-ie10" lang="{$plugin.tx_bhsiteconf.language.languageName}" > <![endif]-->  
+<!--[if IE 9]><html class="no-js lt-ie10" lang="{$plugin.tx_bhsiteconf.language.languageName}" > <![endif]-->  
  		)
 
 	xmlprologue           = none
@@ -56,8 +56,14 @@ config{
 	sys_language_overlay = hideNonTranslated
 
 	uniqueLinkVars = 1
-	linkVars := addToList(L)  
 	
+	//Write like this to prevent cache flooding
+	linkVars =L(0-1)  
+
+    //If no language is selected, use the default
+    defaultGetVars.L = 0
+
+
 	sys_language_uid = {$plugin.tx_bhsiteconf.language.languageUid}
 	language     = {$plugin.tx_bhsiteconf.language.languageName}
 	locale_all     = {$plugin.tx_bhsiteconf.language.languageLocale}

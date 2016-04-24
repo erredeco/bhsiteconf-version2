@@ -6,3 +6,5 @@
 config.disableBodyTag = 1
 # standard object inside page
 page.10 =< lib.stdContent
+
+
