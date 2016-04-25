@@ -178,7 +178,16 @@
 			</trans-unit> 
 			<trans-unit id="gridelements.tab_element.description" xml:space="preserve">
 				<source>Single element for the Tabs. WARNING! Never use alone! ONLY INSIDE Tabs container!!</source>
-			</trans-unit>			
+			</trans-unit>	
+
+
+			<trans-unit id="textmedia.layout.style1" xml:space="preserve">
+				<source>Example style 1</source>
+			</trans-unit>	
+			<trans-unit id="textmedia.layout.style2" xml:space="preserve">
+				<source>Example style 2</source>
+			</trans-unit>	
+
 
 
 		</body>
