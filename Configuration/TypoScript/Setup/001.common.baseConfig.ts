@@ -52,16 +52,14 @@ config{
 	# -------------------------------------------------------------
 	#   Languages. See constants
 	# -------------------------------------------------------------
-	sys_language_mode = content_fallback; 1,0
+	sys_language_mode = content_fallback
 	sys_language_overlay = hideNonTranslated
 
-	uniqueLinkVars = 1
-	
 	//Write like this to prevent cache flooding
 	linkVars =L(0-1)  
 
     //If no language is selected, use the default
-    defaultGetVars.L = 0
+    //defaultGetVars.L = 0
 
 
 	sys_language_uid = {$plugin.tx_bhsiteconf.language.languageUid}

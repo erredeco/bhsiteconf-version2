@@ -61,3 +61,4 @@ plugin.tx_bhsiteconf.language {
 	languageLocale=it_IT.utf8	
 }
 # add other languages when needed
+
