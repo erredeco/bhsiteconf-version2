@@ -17,31 +17,23 @@ npm install -g grunt-cli bower (1)
 
 ##Running instructions
 
-npm install (1)
+The assets inside /Resources/Public/Assets/Css, ##The assets inside /Resources/Public/Assets/Js, ##The assets inside /Resources/Public/Assets/Img_layout
+are provided by the project my-foundation-1 (https://github.com/erredeco/my-foundation-1)
+in that project you will find a task named "deploy" that copies all the assets into that folders;
+please adjust the path inside /grunt/config.js!
+note that the task has no "watch" so far so it must be run manually!
 
-## available commands with grunt:
+so:
 
-### grunt initialize
-- updates all dependencies from grunt and bower
-- copies the initial files from LocalSource to Source
-- copies the scss/settings/_settings.scss files from foundation to source
+1) download https://github.com/erredeco/my-foundation-1 
+2) decompress it into a folder, e.g  
+C:\Users\riccardo.decontardi\Documents\Progetti\Public_assets_for_typo3.test7.it (win)
+Users/riccardo/Progetti/Public_assets_for_typo3.7.development.it (mac)
 
-### grunt update
-- updates all dependencies from grunt and bower
-- copies the scss/settings/_settings.scss files from foundation to source
+3) adjust the path "deploydir" inside /grunt/config.js
 
-Please note that this file OVERWRITES YOUR SETTINGS! BE CAREFUL!
-
-### grunt backup
-- makes a backup copy of Source
-
-### grunt cleaner
-- deletes Source and Bower dirs
-
-### grunt build
-- builds all assets
-
-### grunt (default)
-- build all assets
-- watch 
+4) open terminal and run
+  - npm install
+  - grunt initialize
+  - grunt deploy
 

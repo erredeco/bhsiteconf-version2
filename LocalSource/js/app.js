@@ -1,2 +1,0 @@
-//Fires foundation!
-$(document).foundation();
