@@ -1,5 +1,5 @@
 {namespace v=FluidTYPO3\Vhs\ViewHelpers}
-<div id="c{data.uid}" class="layout-{data.layout}">
+<div id="c{data.uid}" class="<f:for each="{splitlayout}" as="layout">{layout} </f:for>">
   <h1>this is a test; the template renders the CE header_subheader </h1>
   <hr>
   <h2>{data.header}</h2>

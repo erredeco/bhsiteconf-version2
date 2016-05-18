@@ -1,4 +1,4 @@
-<div class="row layout-{data.layout}">
+<div class="row <f:for each="{splitlayout}" as="layout">{layout} </f:for>">
 	<div class="small-6 column">
 		{data.tx_gridelements_view_column_100-> f:format.raw()}
 	</div>
