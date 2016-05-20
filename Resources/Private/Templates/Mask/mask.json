@@ -1,1 +1,34 @@
-[]
+{
+    "tt_content": {
+        "elements": {
+            "downloadmanual": {
+                "label": "Download manuals or request manual",
+                "key": "downloadmanual",
+                "shortLabel": "Download Manual",
+                "description": "Download manuals or request manual",
+                "icon": "fa-download",
+                "color": "#000000",
+                "columns": [
+                    "header",
+                    "header_link",
+                    "media"
+                ],
+                "labels": [
+                    "",
+                    "link to download form",
+                    "Preview Link"
+                ]
+            }
+        }
+    },
+    "pages": {
+        "elements": {
+            "1": {
+                "label": "frontend__default",
+                "key": "1",
+                "shortLabel": "dummy shortitle",
+                "description": "dummy description"
+            }
+        }
+    }
+}
