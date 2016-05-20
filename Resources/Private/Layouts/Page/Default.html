@@ -1,5 +1,5 @@
 {namespace v=FluidTYPO3\Vhs\ViewHelpers}
-<body id="page-{v:page.info(field: 'uid')}" class="page {f:cObject(typoscriptObjectPath: 'lib.pageLevel')} layout-{v:page.info(field: 'layout')}">
+<body id="page-{data.uid}" class="page {f:cObject(typoscriptObjectPath: 'lib.pageLevel')} layout-{data.layout}">
 <f:render partial="SharedHeaderResources" />
 <f:render partial="AllSiteTitle" />
 <f:render partial="Title" />
