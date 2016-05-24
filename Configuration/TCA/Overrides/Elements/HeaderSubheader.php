@@ -5,7 +5,7 @@ defined('TYPO3_MODE') or die();
 call_user_func(function () {
 
   $languageFilePrefix = 'LLL:EXT:fluid_styled_content/Resources/Private/Language/Database.xlf:';
-  $customLanguageFilePrefix = 'LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:';
+  $customLanguageFilePrefix = 'LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:';
   $frontendLanguageFilePrefix = 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:';
   $tcaLanguageFilePrefix = 'LLL:EXT:lang/locallang_tca.xlf:';
 
@@ -14,7 +14,7 @@ call_user_func(function () {
     'tt_content',
     'CType',
       [
-        'LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:ttcontent.headlinesubheadline.title',
+        'LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.headlinesubheadline.title',
         'header_subheader',
         'content-header'
       ],

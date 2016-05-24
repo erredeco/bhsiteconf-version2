@@ -1,6 +1,6 @@
 tx_gridelements.setup.threecolumnscontainer {
-  title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.threecolumns.title
-	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.threecolumns.description
+  title = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.threecolumns.title
+	description = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.threecolumns.description
   icon = EXT:bhsiteconf/Resources/Public/Icons/GridElements/3-columns.gif
   config{
   	colCount = 3
@@ -9,15 +9,15 @@ tx_gridelements.setup.threecolumnscontainer {
   		1 {
   			columns {
   				1 {
-  					name = col-1
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.first
   					colPos = 100
   				}
   				2 {
-  					name = col-2
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.second
   					colPos = 101
   				}
   				3 {
-  					name = col-3
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.third
   					colPos = 102
   				}
   			}

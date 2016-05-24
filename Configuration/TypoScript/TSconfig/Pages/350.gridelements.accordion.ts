@@ -1,7 +1,7 @@
 # Accordion Container
 tx_gridelements.setup.ffaccordion_container {
-	title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_container.title
-	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_container.description
+	title = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.accordion_container.title
+	description = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.accordion_container.description
 	flexformDS = FILE:EXT:bhsiteconf/Configuration/FlexForms/gridelements_ffaccordion_container.xml
   icon = EXT:bhsiteconf/Resources/Public/Icons/GridElements/accordion.gif
 	config {
@@ -12,7 +12,7 @@ tx_gridelements.setup.ffaccordion_container {
 			1 {
 				columns {
 					1 {
-						name = Accordion Container
+						name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.accordion_container.title
 						colPos = 100
 						allowed = gridelements_pi1
 					}
@@ -24,8 +24,8 @@ tx_gridelements.setup.ffaccordion_container {
 
 # Accordion Element
 tx_gridelements.setup.ffaccordion_element {
-	title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_element.title
-	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.accordion_element.description
+	title = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.accordion_element.title
+	description = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.accordion_element.description
 	flexformDS = FILE:EXT:bhsiteconf/Configuration/FlexForms/gridelements_ffaccordion_element.xml
   icon = EXT:bhsiteconf/Resources/Public/Icons/GridElements/container.gif
 	config {
@@ -36,7 +36,7 @@ tx_gridelements.setup.ffaccordion_element {
 			1 {
 				columns {
 					1 {
-						name = Accordion Element
+						name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.accordion_element.title
 						colPos = 100
 					}
 				}

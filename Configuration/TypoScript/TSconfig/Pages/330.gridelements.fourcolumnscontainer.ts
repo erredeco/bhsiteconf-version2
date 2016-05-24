@@ -1,6 +1,6 @@
 tx_gridelements.setup.fourcolumnscontainer {
-  title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.fourcolumns.title
-	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.fourcolumns.description
+  title = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.fourcolumns.title
+	description = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.fourcolumns.description
   icon = EXT:bhsiteconf/Resources/Public/Icons/GridElements/4-columns.gif
   config{
   	colCount = 4
@@ -9,19 +9,19 @@ tx_gridelements.setup.fourcolumnscontainer {
   		1 {
   			columns {
   				1 {
-  					name = col-1
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.first
   					colPos = 100
   				}
   				2 {
-  					name = col-2
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.second
   					colPos = 101
   				}
   				3 {
-  					name = col-3
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.third
   					colPos = 102
   				}
   				4 {
-  					name = col-4
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.fourth
   					colPos = 103
   				}
   			}

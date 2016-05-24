@@ -1,6 +1,6 @@
 tx_gridelements.setup.defaultcontainer {
-  title = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.default.title
-	description = LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:gridelements.default.description
+  title = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.default.title
+	description = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:gridelements.default.description
   config{
   	colCount = 2
   	rowCount = 2
@@ -8,11 +8,11 @@ tx_gridelements.setup.defaultcontainer {
   		1 {
   			columns {
   				1 {
-  					name = Main column
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.main
   					colPos = 100
   				}
   				2 {
-  					name = Side column
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.left
   					colPos = 101
   				}
   			}
@@ -20,7 +20,7 @@ tx_gridelements.setup.defaultcontainer {
   		2 {
   			columns {
   				1 {
-  					name = bottom column
+  					name = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:layout.column.bottom
   					colspan = 2
   					colPos = 102
   				}
