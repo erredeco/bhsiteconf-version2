@@ -20,10 +20,13 @@ lib.stdContent {
       //Remember that 1,2, etc are the IDs of the be_layouts records on the database!!!  
       default = TEXT 
 			default.value = Default 
-			1 = TEXT 
-			1.value = Default 
-			2 = TEXT 
-			2.value = Home 
+      
+      frontend_home = TEXT
+      frontend_home.value = Home
+      
+      frontend_default = TEXT
+      frontend_default = Default      
+
       //add other values 
     }
     ifEmpty = Error
