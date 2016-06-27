@@ -2,6 +2,7 @@
 # backend layout for home page
 ## ---------------------------------------------------------
 
+/*
 mod.web_layout.BackendLayouts.frontend_home {
     title = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:backend_layout.home.title
     description = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:backend_layout.home.description
@@ -33,6 +34,7 @@ mod.web_layout.BackendLayouts.frontend_home {
                 
     }
 }
+*/
 
 
 
