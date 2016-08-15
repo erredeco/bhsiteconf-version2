@@ -1,14 +1,21 @@
-<f:if condition="{data.header}">
-{data.header}<br />
-</f:if>
+<f:layout name="Default" />
 
-<f:if condition="{data.header_link}">
-<f:link.page pageUid="{data.header_link}">Scarica</f:link.page><br />
-</f:if>
+<f:section name="content">
+	<f:if condition="{data.header}">
+	{data.header}<br />
+	</f:if>
 
-<f:if condition="{data.media}">
-<f:for each="{data.media}" as="file">
- <a href="{file.identifier}">Visualizza</a>
-</f:for>
-</f:if>
+	<f:if condition="{data.header_link}">
+		<f:link.page pageUid="{data.header_link}">Scarica</f:link.page><br />
+	</f:if>
+
+	<f:if condition="{data.media}">
+		<f:for each="{data.media}" as="file">
+			<a href="{file.identifier}">Visualizza</a>
+		</f:for>
+	</f:if>
+</f:section>
+
+
+
 
