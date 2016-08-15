@@ -78,6 +78,16 @@ lib.stdContent {
       select.pidInList.data =  field:uid
       select.where = nav_hide = 0       
     }
+
+    ## ---------------------------------------------------------
+    # Write the page level
+    ## ---------------------------------------------------------
+
+    pageLevel=TEXT
+    pageLevel{
+      value= level-{level:-1}      
+      insertData = 1    
+    }
   }
 }
 
@@ -105,14 +115,6 @@ tt_content.gridelements_pi1{
 }
 
 
-## ---------------------------------------------------------
-# object that writes page level
-## ---------------------------------------------------------
-lib.pageLevel=TEXT
-lib.pageLevel{
-      value= level-{level:-1}      
-      insertData = 1    
-}
 
 
 
