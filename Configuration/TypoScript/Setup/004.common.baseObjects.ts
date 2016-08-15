@@ -67,7 +67,7 @@ lib.stdContent {
   
   variables {
     ##------------------------------------------ 
-    # Tests for the presence of content or subpages
+    # Tests for the presence of subpages
     ##------------------------------------------
     
     #Test if there are subpages
@@ -79,9 +79,30 @@ lib.stdContent {
       select.where = nav_hide = 0       
     }
 
-    ## ---------------------------------------------------------
+    ##------------------------------------------ 
+    # Tests for the presence of content
+    ##------------------------------------------
+
+    #test there is content on column 0 (colpos=0)
+    testThereIsContent0 = TEXT
+    testThereIsContent0.value=1
+    testThereIsContent0.if.isTrue.numRows{
+     table=tt_content
+     select{
+         pidInList=this
+         where=colPos=0
+      } 
+    } 
+   
+
+    #test there is content on column 1 (colpos=1) (uncomment if needed; add others if needed)
+    //testThereIsContent1 < .testThereIsContent0
+    //testThereIsContent1.if.isTrue.numRows.select.where=colPos=1
+
+
+    ##------------------------------------------
     # Write the page level
-    ## ---------------------------------------------------------
+    ##------------------------------------------
 
     pageLevel=TEXT
     pageLevel{
