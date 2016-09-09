@@ -1,5 +1,4 @@
 <f:layout name="Default" />
-
 <f:section name="content">
 	<f:if condition="{data.header}">
 	{data.header}<br />
@@ -11,7 +10,7 @@
 
 	<f:if condition="{data.media}">
 		<f:for each="{data.media}" as="file">
-			<a href="{file.identifier}">Visualizza</a>
+			<a href="{file.publicUrl}">Visualizza</a>
 		</f:for>
 	</f:if>
 </f:section>
