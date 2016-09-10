@@ -27,11 +27,11 @@ plugin.tx_bhsiteconf.extensionSetup{
 
 plugin.tx_bhsiteconf.view {
 	# cat=plugin.tx_bhsiteconf/file/0010; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.file.templateRootPath
-	templateRootPath = EXT:bhsiteconf/Resources/Private/Templates/
+	templateRootPath = EXT:bhsiteconf/Resources/Private/Page/Templates/
 	# cat=plugin.tx_bhsiteconf/file/0020; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.file.partialsRootPath
-	partialRootPath = EXT:bhsiteconf/Resources/Private/Partials/
+	partialRootPath = EXT:bhsiteconf/Resources/Private/Page/Partials/
 	# cat=plugin.tx_bhsiteconf/file/0030; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.file.layoutRootPath
-	layoutRootPath = EXT:bhsiteconf/Resources/Private/Layouts/
+	layoutRootPath = EXT:bhsiteconf/Resources/Private/Page/Layouts/
 	# cat=plugin.tx_bhsiteconf/file/0040; type=string; label=LLL:EXT:bhsiteconf/Resources/Private/Language/locallang_db.xlf:constant.file.overlaysRootPath
 	overlaysRootPath = EXT:bhsiteconf/Resources/Private/Ext/
 }
@@ -45,9 +45,9 @@ plugin.tx_bhsiteconf.resource {
 
 //I define here the constants for the alternative templates, layouts, partials path for the lib.fluidtemplate object. remember that they occupy the .10 position on the array!
 
-styles.templates.templateRootPath = EXT:bhsiteconf/Resources/Private/Templates/Content/ 
-styles.templates.partialRootPath = EXT:bhsiteconf/Resources/Private/Partials/Content/
-styles.templates.layoutRootPath = EXT:bhsiteconf/Resources/Private/Layouts/Content/
+styles.templates.templateRootPath = EXT:bhsiteconf/Resources/Private/Content/Templates/ 
+styles.templates.partialRootPath = EXT:bhsiteconf/Resources/Private/Content/Partials/
+styles.templates.layoutRootPath = EXT:bhsiteconf/Resources/Private/Content/Layouts/
 
 //Language definitions
 plugin.tx_bhsiteconf.language {

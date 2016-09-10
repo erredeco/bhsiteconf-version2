@@ -40,13 +40,13 @@ lib.stdContent {
   }
   
   layoutRootPaths {
-    0 = {$plugin.tx_bhsiteconf.view.layoutRootPath}Page/  
+    0 = {$plugin.tx_bhsiteconf.view.layoutRootPath}  
   }
   partialRootPaths {
-    0 = {$plugin.tx_bhsiteconf.view.partialRootPath}Page/  
+    0 = {$plugin.tx_bhsiteconf.view.partialRootPath}  
   }
   templateRootPaths {
-    0 = {$plugin.tx_bhsiteconf.view.templateRootPath}Page/  
+    0 = {$plugin.tx_bhsiteconf.view.templateRootPath}  
   }
 
   ## with this I can omit the LLL:EXT:bhsiteconf/Resources/Private/Language/locallang.xml:label in  <f:translate key !! 
@@ -124,7 +124,7 @@ lib.gridelements.defaultGridSetup {
   cObject = FLUIDTEMPLATE
   cObject {
     templateRootPaths {
-      0 = {$plugin.tx_bhsiteconf.view.templateRootPath}Content/  
+      0 = {$styles.templates.templateRootPath}  
     }
   }
 }
