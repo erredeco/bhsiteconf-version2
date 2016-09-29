@@ -22,8 +22,8 @@ TCEFORM {
                 textmedia {
                     removeItems = 0,1,2,3
                     addItems {
-                        customstyle1 = LLL:EXT:bhsiteconf/Resources/Private/Language/ttcontent.layout.types.textmedia.style1
-                        customstyle2 = LLL:EXT:bhsiteconf/Resources/Private/Language/ttcontent.layout.types.textmedia.style2
+                        customstyle1 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.layout.types.textmedia.style1
+                        customstyle2 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.layout.types.textmedia.style2
                     }
                 }
             }
