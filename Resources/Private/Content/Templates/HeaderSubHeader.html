@@ -1,8 +1,10 @@
 {namespace v=FluidTYPO3\Vhs\ViewHelpers}
-<div id="c{data.uid}" class="<f:for each="{splitlayout}" as="layout">{layout} </f:for>">
+<div id="c{data.uid}" class="type-{data.CType} {f:if(condition: data.list_type, then: 'subtype-{data.list_type}')} <f:for each="{splitlayout}" as="layout">{layout} </f:for>">
   <h1>this is a test; the template renders the CE header_subheader </h1>
   <hr>
   <h2>{data.header}</h2>
   <h3>{data.subheader}</h3>
   <f:render partial="Footer" arguments="{_all}" />
 </div>
+
+

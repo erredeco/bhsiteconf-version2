@@ -126,6 +126,17 @@ lib.gridelements.defaultGridSetup {
     templateRootPaths {
       0 = {$styles.templates.templateRootPath}  
     }
+
+    dataProcessing.99 = TYPO3\CMS\Frontend\DataProcessing\SplitProcessor
+    dataProcessing.99{
+       if.isTrue.field = layout
+       delimiter =,
+       removeEmptyEntries = 1
+       fieldName = layout     
+       as = splitlayout
+    }
+
+    
   }
 }
 
