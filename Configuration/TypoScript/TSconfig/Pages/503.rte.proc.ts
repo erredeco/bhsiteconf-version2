@@ -95,7 +95,8 @@ RTE.default.proc{
 			}
 			div < .p
 			hr.allowedAttribs = class
-			b.allowedAttribs < .span.allowedAttribs
+			abbr.allowedAttribs < .span.allowedAttribs
+      b.allowedAttribs < .span.allowedAttribs
 			bdo.allowedAttribs < .span.allowedAttribs
 			big.allowedAttribs < .span.allowedAttribs
 			blockquote.allowedAttribs < .span.allowedAttribs
