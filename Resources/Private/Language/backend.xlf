@@ -48,6 +48,9 @@
 			<trans-unit id="ttcontent.header_layout.4" xml:space="preserve">
 				<source>Heading type (Heading H4)</source>
 			</trans-unit>
+			<trans-unit id="ttcontent.menu_type.25" xml:space="preserve">
+				<source>Menu of selected pages, with category icon</source>
+			</trans-unit>      
 			<trans-unit id="ttcontent.layout.types.textmedia.style1" xml:space="preserve">
 				<source>Example style 1</source>
 			</trans-unit>	

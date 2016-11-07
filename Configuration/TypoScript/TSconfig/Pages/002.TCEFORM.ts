@@ -7,8 +7,15 @@ TCEFORM {
                 default = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.header_layout.default
                 3 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.header_layout.3 
                 4 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.header_layout.4                
-            }
-		}
+            } 
+    }
+    
+		
+    menu_type{
+      addItems{
+        25 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.menu_type.25 
+      }    
+    }    
 
 		layout {
         //remove in general
