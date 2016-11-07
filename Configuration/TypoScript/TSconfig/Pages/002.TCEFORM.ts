@@ -10,13 +10,6 @@ TCEFORM {
             } 
     }
     
-		
-    menu_type{
-      addItems{
-        25 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.menu_type.25 
-      }    
-    }    
-
 		layout {
         //remove in general
             removeItems = 0,1,2,3
