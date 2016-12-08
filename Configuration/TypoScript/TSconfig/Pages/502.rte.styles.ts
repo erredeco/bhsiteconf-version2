@@ -13,7 +13,7 @@ RTE.default {
 	#custom css copied from /typo3/sysext/rtehtmlarea/res/contentcss/contentcss.css
 	# In order to see the styles in the RTE dropdown, they MUST be configured here, also!!
 	#remove them here to hide them in RTE dropdown!	
-	contentCSS.file2 = EXT:bhsiteconf/Configuration/TypoScript/TSconfig/Pages/default.css
+	contentCSS.file2 = EXT:bhsiteconf/Resources/Public/Assets/Css/additionalRTE.css
 }
 
 RTE.default{	
