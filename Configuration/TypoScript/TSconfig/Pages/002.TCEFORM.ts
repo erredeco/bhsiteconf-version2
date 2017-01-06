@@ -8,7 +8,7 @@ TCEFORM {
                 3 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.header_layout.3 
                 4 = LLL:EXT:bhsiteconf/Resources/Private/Language/backend.xlf:ttcontent.header_layout.4                
             } 
-    }
+        }
     
 		layout {
         //remove in general
