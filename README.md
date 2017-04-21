@@ -3,15 +3,6 @@ This extension is the provider for all the frontend configuration in TYPO3 CMS e
 it depends on vhs 
                                                                       
 ##Installation instructions 
-####Install Ruby
-               
-gem install sass (1)
-
-gem install compass (1)
-
-####Install Grunt and Bower:  
-npm install -g grunt-cli bower (1)
-
 
 ##copy from git
 
